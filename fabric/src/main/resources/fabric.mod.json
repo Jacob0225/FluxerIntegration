@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "id": "dcintegration-fabric",
+  "id": "fluxerintegration-fabric",
   "version": "${version}",
-  "name": "Discord Integration",
-  "description": "This mod links your server chat with a channel on your discord server.",
+  "name": "Fluxer Integration",
+  "description": "This mod links your server chat with a channel on your fluxer server.",
   "authors": ["ErdbeerbaerLP"],
   "contact": {},
   "license": "MIT",
   "environment": "server",
   "entrypoints": {
     "server": [
-      "de.erdbeerbaerlp.dcintegration.architectury.fabric.DiscordIntegrationFabric"
+      "de.erdbeerbaerlp.fluxerintegration.architectury.fabric.FluxerIntegrationFabric"
     ]
   },
   "mixins": [
-    "fabric-like.dcintegration.mixins.json",
-    "dcintegration.mixins.json"
+    "fabric-like.fluxerintegration.mixins.json",
+    "fluxerintegration.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.18.4",
